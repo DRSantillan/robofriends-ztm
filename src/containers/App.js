@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
+import ErrorBoundady from '../components/ErrorBoundary';
 
 import '../containers/App.css';
 
@@ -50,7 +51,13 @@ class App extends Component {
 				<h1 className='f1'>RoboFriends - ZTM</h1>
 				<SearchBox searchChange={this.onSearchChange} />
 				<Scroll>
-					<CardList robots={filteredRobots} />
+					{/* 
+						Adding error component to wrap the main display feature so that it catches errors to make the user
+						experience better.
+					*/}
+					<ErrorBoundady>
+						<CardList robots={filteredRobots} />
+					</ErrorBoundady>
 				</Scroll>
 			</div>
 		);
