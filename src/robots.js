@@ -1,0 +1,51 @@
+export const robots = [
+	{
+		id: 1,
+		name: 'Harumi Santillan',
+		username: 'Harooo',
+		email: 'harumi_vrg@hotmail.com',
+		img: 'https://robohash.org/haru?200x200',
+	},
+	{
+		id: 2,
+		name: 'Dean Santillan',
+		username: 'Dino',
+		email: 'gaijincoach@hotmail.com',
+		img: 'https://robohash.org/dean?200x200',
+	},
+	{
+		id: 3,
+		name: 'Akira Santillan',
+		username: 'Aki',
+		email: 'akiradjs@hotmail.com',
+		img: 'https://robohash.org/akira?200x200',
+	},
+	{
+		id: 4,
+		name: 'Gerald Santillan',
+		username: 'Gerry',
+		email: 'gerrys@hotmail.com',
+		img: 'https://robohash.org/gerry?200x200',
+	},
+	{
+		id: 5,
+		name: 'Gaynor Santillan',
+		username: 'Gay',
+		email: 'gays@hotmail.com',
+		img: 'https://robohash.org/gay?200x200',
+	},
+	{
+		id: 6,
+		name: 'Masaki Satou',
+		username: 'Masa',
+		email: 'masas@hotmail.com',
+		img: 'https://robohash.org/masa?200x200',
+	},
+	{
+		id: 7,
+		name: 'Machiko Satou',
+		username: 'March',
+		email: 'machis@hotmail.com',
+		img: 'https://robohash.org/machiko?200x200',
+	},
+];
